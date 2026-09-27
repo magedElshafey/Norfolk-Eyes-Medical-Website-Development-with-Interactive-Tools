@@ -1,103 +1,184 @@
-<img src="cover.png" alt="Norfolk Eyes – Healthcare Website Development" width="100%" />
+<img src="cover.png" alt="Norfolk Eyes — UK Healthcare Website & Interactive Vision Tools" width="100%" />
 
-# Norfolk Eyes – Healthcare Website Development
+# Norfolk Eyes — UK Healthcare Website & Interactive Vision Tools
 
-🔗 **Live Website:**  
-👉 https://norfolkeyes.com/
+<p align="center">
+  <strong>A live healthcare website for a UK ophthalmology practice, built with a strong focus on accessibility, performance, and patient-friendly interactive experiences.</strong>
+</p>
 
-![React](https://img.shields.io/badge/React.js-Frontend-blue)
-![Accessibility](https://img.shields.io/badge/Web-Accessibility-success)
-![Healthcare](https://img.shields.io/badge/Industry-Healthcare-green)
+<p align="center">
+  <a href="https://norfolkeyes.com/">Live Website</a>
+</p>
 
----
-
-A modern healthcare website developed for an ophthalmology clinic specializing in cataract surgery and vision correction.  
-The project focuses on performance, accessibility, and interactive tools that help patients better understand their vision options before consultation.
-
----
-
-## 🚀 Project Overview
-
-Norfolk Eyes is a medical website built to deliver a clear, trustworthy, and user-friendly digital experience for patients.  
-The platform transforms complex medical information into an accessible and interactive journey, guiding users from discovery to consultation booking.
-
-This project was developed with a strong emphasis on:
-- Clean frontend architecture
-- Accessibility for visually impaired and elderly users
-- Interactive medical tools
-- Scalable and maintainable codebase
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Accessibility-Focus-2ea44f" alt="Accessibility" />
+</p>
 
 ---
 
-## 🛠 Tech Stack
+## Overview
 
-- **React.js**
-- **Tailwind CSS**
-- **React Hook Form**
-- **Modern JavaScript (ES6+)**
-- **Vite**
+**Norfolk Eyes** is a production healthcare website developed for an ophthalmology practice operating in the UK.
+
+The project is designed around clear information delivery, accessibility, responsive behavior, and interactive tools that help users better understand available vision-care options before consultation.
+
+I developed the frontend using **React, TypeScript, Vite, Tailwind CSS, and React Hook Form**, with an emphasis on maintainable architecture and usability for healthcare audiences.
 
 ---
 
-## ✨ Key Features
+## My Contribution
 
-### 🔹 Accessibility Control Panel
-A built-in accessibility tool allowing users to:
+- Developed the production frontend experience.
+- Built reusable, responsive UI components.
+- Implemented accessibility-focused controls for readability and visual comfort.
+- Built an interactive vision simulator for comparing lens options.
+- Implemented dynamic forms using React Hook Form.
+- Focused on maintainable frontend architecture, responsive behavior, and performance.
+- Delivered a live production website for a UK-market healthcare client.
+
+---
+
+## Key Features
+
+### Accessibility Control Panel
+
+The website includes built-in accessibility controls designed to improve readability and visual comfort.
+
+Users can:
+
 - Adjust font size
 - Switch contrast modes
-- Improve readability and visual comfort
+- Improve readability for different visual needs
 
-Designed specifically for users with visual limitations.
-
----
-
-### 🔹 Real-Time Vision Simulator
-An interactive tool that helps patients:
-- Compare intraocular lens options visually
-- Understand potential vision outcomes
-- Make informed decisions before surgery
+This was an important part of the project because the website serves users who may have visual accessibility requirements.
 
 ---
 
-### 🔹 Dynamic & Scalable Forms
-- Built using **React Hook Form**
-- Fully dynamic and admin-manageable
-- Optimized for validation, performance, and scalability
+### Interactive Vision Simulator
+
+A custom interactive tool allows users to compare different intraocular lens options visually.
+
+The simulator is designed to:
+
+- Present vision differences in a more understandable way
+- Support patient education
+- Turn complex information into a more interactive experience
 
 ---
 
-### 🔹 Responsive & High-Performance UI
-- Fully responsive across all screen sizes
-- Optimized loading and rendering
-- Consistent behavior across modern browsers
+### Dynamic Forms
+
+Forms are implemented using **React Hook Form** with a reusable and maintainable structure.
+
+The project includes dynamic form behavior designed for:
+
+- Validation
+- Performance
+- Reusability
+- Admin-manageable form scenarios
 
 ---
 
-## 🧠 Architecture & Development Approach
+### Responsive Healthcare Experience
 
-- Component-based architecture for reusability
-- Clear separation of concerns
-- Scalable structure suitable for future expansion
-- Focus on maintainability and clean code practices
+The interface is designed to work consistently across:
 
----
+- Desktop
+- Tablet
+- Mobile
 
-## 🎯 Project Goals
-
-- Improve patient understanding of medical procedures
-- Reduce friction in booking consultations
-- Deliver a professional and trustworthy medical web experience
-- Ensure accessibility compliance and usability best practices
+Layouts and components were implemented with readability and usability as key priorities.
 
 ---
 
-## 👨‍💻 Author
+## Engineering Approach
 
-**Maged Elshafey**  
-Web Developer specialized in building accessible, high-performance web applications with real-world interactive tools.
+### Component Architecture
+
+The frontend follows a reusable component-based structure to reduce duplication and make the application easier to maintain and extend.
+
+### Form Architecture
+
+**React Hook Form** is used to manage complex form state while minimizing unnecessary re-renders and keeping validation logic organized.
+
+### Accessibility
+
+Accessibility was treated as a product requirement rather than an afterthought.
+
+The project includes:
+
+- Readability-focused controls
+- Contrast support
+- Responsive typography
+- Accessible interaction patterns
+- Interfaces designed with visually impaired and elderly users in mind
+
+### Performance
+
+The application uses a modern Vite-based frontend setup and performance-focused implementation patterns across assets, rendering, and reusable UI.
 
 ---
 
-## 📄 License
+## Tech Stack
 
-This project is showcased for portfolio purposes.
+| Area | Technologies |
+| --- | --- |
+| Core | React, TypeScript, Vite |
+| UI | Tailwind CSS |
+| Forms | React Hook Form |
+| Server State | TanStack Query |
+| API | Axios |
+| Validation | Zod |
+| Animation | Framer Motion |
+| Internationalization | React i18next |
+| Tooling | ESLint, TypeScript ESLint, Vite |
+
+---
+
+## Project Goals
+
+- Deliver a clear and trustworthy healthcare web experience
+- Make ophthalmology information easier to understand
+- Improve accessibility for users with visual limitations
+- Provide interactive tools that support patient understanding
+- Keep the frontend maintainable and scalable
+
+---
+
+## What This Project Demonstrates
+
+- Production frontend delivery for the UK healthcare market
+- React + TypeScript development
+- Accessibility-focused frontend engineering
+- Interactive domain-specific UI
+- Dynamic form development
+- Responsive design
+- Maintainable component architecture
+- Performance-conscious implementation
+
+---
+
+## Live Project
+
+**Website:** https://norfolkeyes.com/
+
+---
+
+## About Me
+
+I'm **Maged Elshafey**, a Frontend Engineer focused on building production web applications with React, TypeScript, and Next.js.
+
+My work includes SaaS platforms, e-commerce, healthcare products, multi-role applications, and complex API-driven frontend systems.
+
+- LinkedIn: https://www.linkedin.com/in/maged-elshafey/
+- GitHub: https://github.com/magedElshafey
+
+---
+
+## Portfolio Note
+
+This repository is shared as a portfolio example of production frontend work.
